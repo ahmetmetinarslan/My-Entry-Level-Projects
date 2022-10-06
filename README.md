@@ -2,4 +2,4 @@
 My Entry Level Projects<br>
 -This repo contains multiple projects.<br>
 -I will post my entry level coding projects in this repo. <br>
-<img src="https://cdn.dribbble.com/users/330915/screenshots/3587000/10_coding_dribbble.gif" width="100px" height="100px">
+<img src="https://cdn.dribbble.com/users/330915/screenshots/3587000/10_coding_dribbble.gif" width="200px" height="200px">
