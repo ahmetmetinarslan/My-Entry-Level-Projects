@@ -1,3 +1,7 @@
+
+Live Demo: https://glittery-druid-fc260b.netlify.app/
+<hr>
+<br><br><br>
 # Frontend Mentor - Expenses chart component
 
 ![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)
