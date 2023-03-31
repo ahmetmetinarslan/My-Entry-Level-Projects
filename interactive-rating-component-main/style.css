@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 370px; 
+    margin: 100px;
+    padding: 25px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37, #252d37);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.star {
+    margin-bottom: 15px;
+}
+.star .circle {
+    height: 35px;
+    width: 35px;
+    background-color: #3c4856;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.star .circle img {
+    margin: 9px 0px 0px 1px
+}
+.card .text h2,p {
+    margin-bottom: 10px;
+}
+.card .text h2 {
+    color: white;
+}
+.card .text p {
+    color: hsl(217, 12%, 63%);
+    line-height: 22px;
+}
+.card .number ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+.card .number ul li button {
+    background: none;
+    border: none;
+}
+.card .number ul li .circle {
+    height: 40px;
+    width: 40px;
+    background-color: #3c4856;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card .button {
+    text-align: center;
+    padding: 10px;
+}
+.card .button .btn {
+    padding: 15px;
+    width: 310px;
+    border-radius: 40px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
