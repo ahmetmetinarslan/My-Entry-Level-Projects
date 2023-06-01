@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/eea31c4faf.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="container">
+        <section class="left">
+          <img src="images/drawers.jpg" />
+        </section>
+
+        <section class="right">
+          <h1 class="text-bold">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+
+          <div class="content-bottom">
+            <section class="author-cont">
+              <div class="author-avatar">
+                <img src="images/avatar-michelle.jpg" />
+              </div>
+              <section class="author-name">
+                <div class="text-bold">Michelle Appleton</div>
+                <div class="text-light">28 Jun 2020 Share</div>
+              </section>
+            </section>
+
+            <div class="share-cont">
+              <button id="shareButton"><i class="fas fa-share"></i></button>
+
+              <section class="share-options">
+                <span class="share-text">SHARE</span>
+                <a href="#" class="fb-icon"
+                  ><img src="images/icon-facebook.svg" alt="Facebook"
+                /></a>
+                <a href="#" class="twitter-icon"
+                  ><img src="images/icon-twitter.svg" alt="Twitter"
+                /></a>
+                <a href="#" class="pinterest-icon"
+                  ><img src="images/icon-pinterest.svg" alt="Pinterest"
+                /></a>
+              </section>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script>
+      document
+        .getElementById("shareButton")
+        .addEventListener("click", function () {
+          document.querySelector(".share-cont").classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
