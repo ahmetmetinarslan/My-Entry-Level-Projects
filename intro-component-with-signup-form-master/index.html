@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-container">
+      <header class="header">
+        <h1>Learn to Code by Watching Others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+      <section class="forms-container">
+        <button class="btn-action">
+          <span
+            ><strong>Try it Free for 7 Days</strong>then $20/mo.
+            thereafter</span
+          >
+        </button>
+        <form id="form" novalidate>
+          <div class="input-container">
+            <label for="first-name">First Name</label>
+            <input
+              type="text"
+              name="first-name"
+              id="first-name"
+              placeholder="First Name"
+              title="Input your First name"
+              required
+            />
+            <div class="form-error"><em>First Name cannot be empty</em></div>
+          </div>
+          <div class="input-container">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              name="last-name"
+              id="last-name"
+              placeholder="Last Name"
+              title="Input your Last name"
+              required
+            />
+            <div class="form-error"><em>Last Name cannot be empty</em></div>
+          </div>
+          <div class="input-container">
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              title="Input your email"
+              required
+            />
+            <div class="form-error">
+              <em>Looks like this is not an email</em>
+            </div>
+          </div>
+          <div class="input-container">
+            <label for="password">Password Address</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password Address"
+              title="Input your Password"
+              required
+            />
+            <div class="form-error">
+              <em>Looks like this is not an Password</em>
+            </div>
+          </div>
+          <div class="input-container">
+            <input
+              type="submit"
+              name="submit"
+              class="btn-submit"
+              id="form-submit"
+              value="Claim your free trial"
+            />
+          </div>
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
